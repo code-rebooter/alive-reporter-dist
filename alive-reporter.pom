@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.code-rebooter</groupId>
   <artifactId>alive-reporter-dist</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>aar</packaging>
   <name>alive-reporter</name>
   <description>alive-reporter Android SDK</description>

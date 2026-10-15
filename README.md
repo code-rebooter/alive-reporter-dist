@@ -19,7 +19,7 @@ dependencyResolutionManagement {
 在应用模块中添加依赖；版本号使用本仓库的固定版本 tag：
 
 ```groovy
-implementation 'com.github.code-rebooter:alive-reporter-dist:1.0.0'
+implementation 'com.github.code-rebooter:alive-reporter-dist:1.0.1'
 ```
 
 SDK 的账号同步配置需要与宿主的最终 `applicationId` 一致。在宿主应用中覆盖以下资源
