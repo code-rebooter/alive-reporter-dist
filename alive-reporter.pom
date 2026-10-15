@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  
+  
+  
+  
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.code-rebooter</groupId>
+  <artifactId>alive-reporter-dist</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>alive-reporter</name>
+  <description>alive-reporter Android SDK</description>
+  <url>https://github.com/code-rebooter/alive-reporter-dist</url>
+  <dependencies>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>5.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.13.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-runtime-ktx</artifactId>
+      <version>2.10.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.work</groupId>
+      <artifactId>work-runtime-ktx</artifactId>
+      <version>2.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.2.20</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
