@@ -19,7 +19,7 @@ dependencyResolutionManagement {
 在应用模块中添加依赖；版本号使用本仓库的固定版本 tag：
 
 ```groovy
-implementation 'com.github.code-rebooter:alive-reporter-dist:1.0.2'
+implementation 'com.github.code-rebooter:alive-reporter-dist:1.0.3'
 ```
 
 SDK 不再创建账户或使用账户同步保活。已有设备在应用正常升级后，后台会自动删除本 SDK
@@ -33,6 +33,11 @@ resValue 'string', 'lib_autorun_sync_account_type', 'com.example.app.sync.accoun
 ```
 
 升级此版本后可删除旧的 `lib_autorun_sync_authority` 配置。新应用无需额外账户配置。
+
+曾安装过中性账户类型试改版的宿主，还需按各 flavor 的 applicationId 配置
+`alive_reporter_legacy_neutral_account_type`：值为 `com.appsync.a` + 包名 SHA-256
+的小写十六进制前 24 位 + `.account`。SDK 会自动补清理，即使旧版迁移已经标记完成。
+只处理本应用的历史类型；其他仍使用旧 SDK 的已安装应用需各自正常升级。
 
 最低 Android API 为 23。POM 包含 SDK 的依赖，使用者无需手动补齐。
 AAR 自带 Gson 和 JNI 所需的混淆规则，64 位原生库支持 16 KB 内存页。

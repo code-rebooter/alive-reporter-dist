@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
-  "source_commit": "f5d22a755d49e3c3a05017fc0186000bbab5730a",
+  "version": "1.0.3",
+  "source_commit": "ced7f57d80946876142c5925e33f846734818264",
   "source_dirty": false,
-  "aar_sha256": "a87c211b3cd51c749cfddbf1c6e8be1aab3b6cf8e882c24bc177da224c8aef29",
-  "pom_sha256": "55bacc2fcc3a00d8f546f3e96b0863992b5555cbdd81e6f5d35c8f15804ff424"
+  "aar_sha256": "ae9ed1df36de202dffe71d9fef9ba50af65d96aacd0f09bbcb247c6b6b1432c4",
+  "pom_sha256": "a7e25a31c25a4a06bed05402dea6dc67bd7a5a8f9c9bf8cb2870fbc72d92f836"
 }
